@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import guadaImg from '../../../public/IMG_0201-removebg-preview.png';
+import guadaImg from '../../../public/guada2.png';
+import Skils from '../Skils/Skils';
+import CvPdf from '../CvPdf/CvPdf';
 
 
 const Title = styled.h1`
@@ -12,6 +14,7 @@ const Title = styled.h1`
   const Title2 = styled.h1`
   font-family: "Anton", sans-serif;
   font-weight: 400;
+  font-size: 36px;
   font-style: normal;
   color:white;
   `
@@ -41,6 +44,8 @@ export default function Inicio(){
         <div>
         <GuadaImg src={guadaImg} alt="guadaImg"/>
         </div>
+        <Skils/>
+        <CvPdf/>
         </ContainerIndex>
     )
 }
