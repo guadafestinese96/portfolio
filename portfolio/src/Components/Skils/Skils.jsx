@@ -36,10 +36,14 @@ flex-wrap:wrap;
 justify-content:center;
 align-items:center;
 `
+const ContainerAll = styled.div`
+background-color:white;
+width: 100vw;
+`
 
 export default function Skils(){
     return(
-    <div>
+    <ContainerAll>
         <h1>Skils</h1>
         <ContainerSkils>
         <Imgs src={reactImg} alt='reactImg'/>
@@ -61,7 +65,7 @@ export default function Skils(){
         <Imgs src={corelImg} alt='corelImg'/>
         <Imgs src={canvaImg} alt='canvaImg'/>
         </ContainerSkils>
-        </div>
+        </ContainerAll>
     )
 }
 
