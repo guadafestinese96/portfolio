@@ -16,9 +16,11 @@ width: 300px;
 export default function CvPdf() {
     return (
         <ContainerButton>
-        <ButtonCv>
-            <Link to={pdf} target='_blank'>VISUALIZAR CV EN PDF</Link>
-        </ButtonCv>
+            <Link to={pdf} target='_blank'>
+                <ButtonCv>
+                    VISUALIZAR CV EN PDF
+                </ButtonCv>
+            </Link>
         </ContainerButton>
     )
 }

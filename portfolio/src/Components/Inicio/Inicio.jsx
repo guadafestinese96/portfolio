@@ -7,6 +7,7 @@ import CvPdf from '../CvPdf/CvPdf';
 const Title = styled.h1`
   font-family: "Anton", sans-serif;
   font-weight: 400;
+  font-size: 36px;
   font-style: normal;
   color:rgba(237,107,191);
   `
