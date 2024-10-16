@@ -14,6 +14,8 @@ import tailwindImg from '../../../public/tailwind-rbg.png'
 import vercelImg from '../../../public/vercel-rbg.png'
 import vscImg from '../../../public/Vscode.png'
 import figmaImg from '../../../public/figma.png'
+import corelImg from '../../../public/corel-rbg.png'
+import canvaImg from '../../../public/canva-rbg.png'
 import styled from 'styled-components'
 
 
@@ -50,6 +52,8 @@ export default function Skils(){
         <ImgVercel src={vercelImg} alt='vercelImg'/>
         <Imgs src={vscImg} alt='vscImg'/>
         <Imgs src={figmaImg} alt='figmaImg'/>
+        <Imgs src={corelImg} alt='corelImg'/>
+        <Imgs src={canvaImg} alt='canvaImg'/>
         </div>
         </div>
     )
