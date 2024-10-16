@@ -30,12 +30,18 @@ border: 1px solid black;
 border-radius: 50%;
 padding: 5px;
 `
+const ContainerSkils = styled.div`
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+`
 
 export default function Skils(){
     return(
     <div>
         <h1>Skils</h1>
-        <div>
+        <ContainerSkils>
         <Imgs src={reactImg} alt='reactImg'/>
         <Imgs src={viteImg} alt='viteImg'/>
         <Imgs src={jsImg} alt='jsImg'/>
@@ -54,7 +60,7 @@ export default function Skils(){
         <Imgs src={figmaImg} alt='figmaImg'/>
         <Imgs src={corelImg} alt='corelImg'/>
         <Imgs src={canvaImg} alt='canvaImg'/>
-        </div>
+        </ContainerSkils>
         </div>
     )
 }
