@@ -2,12 +2,13 @@ import styled from 'styled-components';
 import guadaImg from '../../../public/guada2.png';
 import Skils from '../Skils/Skils';
 import CvPdf from '../CvPdf/CvPdf';
+import Proyectos from '../Proyectos/Proyectos';
 
 
 const Title = styled.h1`
   font-family: "Anton", sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 45px;
   font-style: normal;
   color:rgba(237,107,191);
   `
@@ -17,7 +18,7 @@ const Title = styled.h1`
   font-weight: 400;
   font-size: 36px;
   font-style: normal;
-  color:white;
+  color:black;
   `
 
   const GuadaImg = styled.img`
@@ -29,7 +30,7 @@ const Title = styled.h1`
     border-radius: 50%;
   `
 const ContainerIndex = styled.div`
-    background-color: rgba(0,0,0,0.8);
+  
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -42,9 +43,8 @@ export default function Inicio(){
         <ContainerIndex>
         <Title>Guadalupe Festinese</Title>
         <Title2>Frontend Developer</Title2>
-        <div>
-        <GuadaImg src={guadaImg} alt="guadaImg"/>
-        </div>
+     
+        <Proyectos/>
         <Skils/>
         <CvPdf/>
         </ContainerIndex>

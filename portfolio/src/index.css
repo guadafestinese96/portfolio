@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgb(253, 255, 116, 0.8);
 }
 
 
@@ -39,7 +39,7 @@ button:hover {
 
 .app{
   --colorPrimario: rgba(237,107,191);
-  --colorSecundario: rgba(0,0,0,0.8);
+  --colorSecundario: rgb(253, 255, 116);
  
   margin: 0;
   padding: 0;
