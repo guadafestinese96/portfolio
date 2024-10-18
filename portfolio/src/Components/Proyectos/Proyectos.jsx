@@ -34,13 +34,13 @@ export default function Proyectos() {
                 <div>
                     <div className="flex justify-center items-center">
                         <Link to='https://github.com/guadafestinese96/widistore' target="_blank">
-                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded">
+                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded hover:bg-white">
                                 <p className='m-1'>Code</p>
                                 <img src={imgLink} className="w-6 h-6" alt='imgLink' />
                             </div>
                         </Link>
                         <Link to='https://widistore.vercel.app/' target="_blank">
-                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded">
+                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded hover:bg-white">
                                 <p className='m-1'>Page</p>
                                 <img src={imgLink} className="w-6 h-6" alt='imgLink' />
                             </div>
@@ -51,13 +51,13 @@ export default function Proyectos() {
                 <div>
                     <div className="flex justify-center items-center">
                         <Link to='https://github.com/guadafestinese96/chupitraki-page' target="_blank">
-                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded">
+                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded hover:bg-white">
                                 <p className='m-1'>Code</p>
                                 <img src={imgLink} className="w-6 h-6" alt='imgLink' />
                             </div>
                         </Link>
                         <Link to='https://distribuidora-chupitraki.vercel.app/' target="_blank">
-                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded">
+                            <div className="flex m-1 justify-center items-center bg-[#ED6BBF] w-20 rounded hover:bg-white">
                                 <p className='m-1'>Page</p>
                                 <img src={imgLink} className="w-6 h-6" alt='imgLink' />
                             </div>
